@@ -1,0 +1,6 @@
+// Input host IP to add to known hosts
+ssh-keyscan $1 >> ~/.ssh/known_hosts
+
+// Or add in IP
+ssh-keyscan -H 1.0.0.1 >> ~/.ssh/known_hosts
+
